@@ -1,0 +1,261 @@
+/* layout */
+#wrap{
+    width: 100%;
+    background-color: #fff;
+}
+
+#headmenu{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+#header{
+    background: linear-gradient(-45deg, #515af2, #b65be7);
+    height: 700px;
+}
+
+#combo-banner{
+    background-color: #F4F7FF;
+    height: 250px;
+}
+
+#contents{
+    margin: 0 auto;
+}
+
+#section-1{
+    background-color: #fff;
+    color: #363636;
+    height: 250px;
+    padding: 200px 0;
+}
+
+#section-2{
+    background-color: #fff;
+    color: #363636;
+    height: 150px;
+    padding: 300px 0;
+}
+
+#section-3{
+    background-color: #fff;
+    color: #363636;
+    height: 150px;
+    padding: 300px 0;
+}
+
+#section-4{
+    background-color: #fff;
+    color: #363636;
+    height: 100px;
+    padding: 450px 0;
+}
+
+#section-5{
+    background-color: #fff;
+    color: #363636;
+    height: 450px;
+    padding: 200px 0;
+}
+
+#footer{
+    background: linear-gradient(-45deg, #515af2, #b65be7);
+    color: #fff;
+    height: 250px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.title{
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    padding: 400px 0;
+    font-weight: bold;
+}
+
+.title p{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 150%;
+    padding: 10px 0;
+}
+
+.title-logo{
+    width: 200px;
+    margin: 0 0 20px -8px;
+}
+
+.pad{
+    text-align: right;
+    margin: -920px 0;
+}
+
+.combo1{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 25px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.combo2{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 25px 0 0 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.combo3{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 25px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    float: right;
+}
+
+.combo-text{
+    font-size: 18px;
+    text-align: center;
+    padding: 70px 0;
+    line-height: 170%;
+}
+
+.combo-text p{
+    font-size: 20px;
+    color: #515af2;
+    font-weight: bold;
+}
+
+#section-1 h4{
+    font-size: 28px;
+    line-height: 180%;
+}
+
+#section-2 h4{
+    font-size: 28px;
+    line-height: 180%;
+}
+
+#section-3 h4{
+    font-size: 28px;
+    line-height: 180%;
+}
+
+#section-4 h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#section-5 h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-title-text{
+    font-size: 30px;
+}
+
+.section-sub-text{
+    font-size: 20px;
+    padding: 20px 0;
+    line-height: 150%;
+}
+
+.section-text{
+    font-size: 16px;
+    line-height: 180%;
+    margin: -20px 0;
+}
+
+.belt{
+    height: 200px;
+    background: linear-gradient(-45deg, #515af2, #88c1e7);
+    opacity: 30%;
+    position: relative;
+    z-index: -1;
+}
+
+.section-img1{
+    margin: 70px 0;
+    float: right;
+    display: inline-block;
+}
+
+.section-img2{
+    margin: 102px 0;
+    float: right;
+    display: inline-block;
+}
+
+.section-img3{
+    margin: 70px 0;
+    float: right;
+    display: inline-block;
+}
+
+.section-img4{
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#section-4 p{
+    text-align: right;
+    margin-right: 80px;
+    font-size: 14px;
+}
+
+#section-5 p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.section-img5{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 100px;
+    position: fixed;
+    top: 11px;
+    float: left;
+}
+
+.footer-logo{
+    width: 100px;
+    top: 14px;
+    padding: 56px 0 10px 0;
+}
+
+.quick a{
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    padding: 17px 0 0 48px;
+    text-decoration: none;
+}
+
+.quick a:hover{
+    font-weight: bold;
+}
