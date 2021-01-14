@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=940" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ediket">
     <meta name="description" content="영어첨삭 종합 솔루션, 에디켓">
     <meta name="keywords" content="영어첨삭">
@@ -15,6 +15,43 @@
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+
+    <!-- mediaquery -->
+    <style>
+
+        /* 768px */
+        @media (max-width: 768px){
+        .container{width: 90%; height: 90%;}
+        .pad{width: 90%; margin-left: 90px;}
+        #combo-banner{height: 710px;}
+        .combo1{width: 100%;}
+        .combo2{width: 100%; margin: 5px 0;}
+        .combo3{width: 100%; float: none;}
+        }
+
+        /* 600px */
+        @media (max-width: 600px){
+        .container{width: 90%; height: 90%;}
+        #header{height: 650px;}
+        .quick a{padding: 17px 0 0 36px;}
+        .title{font-size: 24px;}
+        .title p{font-size: 16px;}
+        .pad{width: 90%; margin-left: 40px; margin-top: -570px;}
+        .combo1{width: 100%;}
+        .combo2{width: 100%; margin: 5px 0;}
+        .combo3{width: 100%; float: none;}
+        #section-1{height: 70px;}
+        #section-2{height: 0;}
+        #section-1 h4{font-size: 22px; margin-top: -50px;}
+        #section-2 h4{font-size: 22px; margin-top: -50px;}
+        #section-3 h4{font-size: 22px; margin-top: -50px;}
+        .section-title-text{font-size: 24px;}
+        .section-text{font-size: 12px;}
+        .section-img1{width: 90%; margin-top: 40px;}
+        .section-img2{width: 90%; margin-top: 60px;}
+        .section-img3{width: 90%;}
+        }
+    </style>
 </head>
 <body>
     <div id="wrap">
@@ -27,59 +64,58 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="header">
-        <div class="container">
-            <div class="title">
-                <img src="img/logo.svg" class="title-logo">
-                <h2>영어첨삭 종합 솔루션, 에디켓</h2>
-                <p>에디켓을 통해 원어민들이 실제로 사용하는
-                <br>비즈니스·학술 영어를 배우고 작문해보세요!</p>
-            </div>
-            <div class="pad">
-                <img src="img/pad.png">
-            </div>
-        </div>
-    </div>
-    <div id="combo-banner">
-        <div class="container">
-            <div class="combo1">
-                <div class="combo-text">
-                실시간 매칭 플랫폼을 통한
-                <p>1:1 영어첨삭 서비스</p>
-                </div>
-            </div>
-            <div class="combo2">
-                <div class="combo-text">
-                영어첨삭 데이터를 활용한
-                <p>인공지능 알고리즘</p>
-                </div>
-            </div>
-            <div class="combo3">
-                <div class="combo-text">
-                영어작문에 특화된
-                <p>교육 콘텐츠 (분야별/상황별)</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="contents">
-        <div id=section-1>
+        <div id="header">
             <div class="container">
-                <h4>실시간 매칭 플랫폼을 통한</h4>
-                <div class="section-title-text">
-                    <h2>1:1 영어첨삭 서비스</h2>
+                <div class="title">
+                    <img src="img/logo.svg" class="title-logo">
+                    <h2>영어첨삭 종합 솔루션, 에디켓</h2>
+                    <p>에디켓을 통해 원어민들이 실제로 사용하는
+                    <br>비즈니스·학술 영어를 배우고 작문해보세요!</p>
                 </div>
-                <div class="section-sub-text">
-                    실시간 매칭 기술을 통해, 당장 나에게 필요한
-                    <br>원어민 에디터·전문 번역가를 연결해줍니다.
+                <div class="pad">
+                    <img src="img/pad.png" class="pad">
                 </div>
-                <div class="section-text">
-                <br>· <font color="#515af2"><b>24시간 언제든지</b></font> 접속 중인 원어민 에디터·전문 번역가에게 의뢰가 가능합니다.
-                <br>· 분야별 원어민 에디터·전문 번역가의 <font color="#515af2"><b>학력 및 전공을 보며 직접 선택</b></font>하여 의뢰가 가능합니다.
-                <br>· 첨삭/번역 중인 문서를 <font color="#515af2"><b>실시간으로 보며 채팅을 통해 피드백</b></font>을 주고 받을 수 있습니다.
+            </div>
+        </div>
+        <div id="combo-banner">
+            <div class="container">
+                <div class="combo1">
+                    <div class="combo-text">
+                    실시간 매칭 플랫폼을 통한
+                    <p>1:1 영어첨삭 서비스</p>
+                    </div>
                 </div>
-                <div id="section-img1">
+                <div class="combo2">
+                    <div class="combo-text">
+                    영어첨삭 데이터를 활용한
+                    <p>인공지능 알고리즘</p>
+                    </div>
+                </div>
+                <div class="combo3">
+                    <div class="combo-text">
+                    영어작문에 특화된
+                    <p>교육 콘텐츠 (분야별/상황별)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contents">
+            <div id=section-1>
+                <div class="container">
+                    <h4>실시간 매칭 플랫폼을 통한</h4>
+                    <div class="section-title-text">
+                        <h2>1:1 영어첨삭 서비스</h2>
+                    </div>
+                    <div class="section-sub-text">
+                        실시간 매칭 기술을 통해, 당장 나에게 필요한
+                        <br>원어민 에디터·전문 번역가를 연결해줍니다.
+                    </div>
+                    <div class="section-text">
+                    <br>· <font color="#515af2"><b>24시간 언제든지</b></font> 접속 중인 원어민 에디터·전문 번역가에게 의뢰가 가능합니다.
+                    <br>· 분야별 원어민 에디터·전문 번역가의 <font color="#515af2"><b>학력 및 전공을 보며 직접 선택</b></font>하여 의뢰가 가능합니다.
+                    <br>· 첨삭/번역 중인 문서를 <font color="#515af2"><b>실시간으로 보며 채팅을 통해 피드백</b></font>을 주고 받을 수 있습니다.
+                    </div>
+                    <div id="section-img1">
                     <div class="container">
                     <img src="img/section1.png" class="section-img1">
                     </div>
@@ -100,9 +136,9 @@
                     <br>공동 개발한 영어첨삭 알고리즘을 사용합니다.
                 </div>
                 <div class="section-text">
-                <br>· 전 세계 기계 영문교정 서비스 중 유일, <font color="#515af2"><b>인공신경망 기반 영어첨삭 알고리즘</b></font>을 사용합니다.
-                <br>· 다른 기계 영문교정 서비스에서는 볼 수 없는<font color="#515af2"><b> 목적 기반 표현 추천 기능</b></font>을 제공합니다.
-                <br>· <font color="#515af2"><b>플랫폼을 통해 빅데이터를 수집</b></font>하여 더욱 완성도 높은 알고리즘을 구현합니다.
+                    <br>· 전 세계 기계 영문교정 서비스 중 유일, <font color="#515af2"><b>인공신경망 기반 영어첨삭 알고리즘</b></font>을 사용합니다.
+                    <br>· 다른 기계 영문교정 서비스에서는 볼 수 없는<font color="#515af2"><b> 목적 기반 표현 추천 기능</b></font>을 제공합니다.
+                    <br>· <font color="#515af2"><b>플랫폼을 통해 빅데이터를 수집</b></font>하여 더욱 완성도 높은 알고리즘을 구현합니다.
                 </div>
                 <div id="section-img1">
                     <div class="container">
@@ -153,15 +189,16 @@
                 <img src="img/section5.png" class="section-img5">
             </div>
         </div>
-    </div>
-    <div id="footer">
-        <div class="container">
-            <img src="img/logo.svg" class="footer-logo">
-            <br><b>주식회사에디켓</b>
-            <br>사업자등록번호 : 106-87-06282
-            <br>서울특별시 용산구 후암로57길 3-10, 3층
-            <br>
-            <br>Copyright ⓒ 주식회사에디켓 All rights reserved.
+        </div>
+        <div id="footer">
+            <div class="container">
+                <img src="img/logo.svg" class="footer-logo">
+                <br><b>주식회사에디켓</b>
+                <br>사업자등록번호 : 876-11-01528
+                <br>서울특별시 용산구 후암로57길 3-10, 3층
+                <br>
+                <br>Copyright ⓒ 주식회사에디켓 All rights reserved.
+            </div>
         </div>
     </div>
 </body>
