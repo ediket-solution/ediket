@@ -1,9 +1,4 @@
 /* layout */
-#wrap{
-    width: 100%;
-    background-color: #fff;
-}
-
 #headmenu{
     background-color: blueviolet;
     width: 100%;
@@ -90,7 +85,7 @@
 
 .pad{
     text-align: right;
-    margin: -920px 0;
+    margin-top: -460px;
 }
 
 .combo1{
