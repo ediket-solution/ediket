@@ -1,4 +1,8 @@
 /* layout */
+@media all and (min-width: 768px){
+    .container{width: 768px;}
+}
+
 #wrap{
     width: 100%;
     background-color: #fff;
