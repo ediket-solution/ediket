@@ -248,9 +248,8 @@
     color: #fff;
     float: right;
     font-size: 16px;
-    padding: 17px 0 17px 48px;
+    margin: 22px 0 0 48px;
     text-decoration: none;
-    display: inline;
 }
 
 .quick a:hover{
