@@ -11,6 +11,36 @@
     height: 700px;
 }
 
+#main-button {
+    float: right;
+    margin-top: 10px;
+}
+
+button {
+  width: 140px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba( 255, 255, 255, 0.0 );
+  color: #fff;
+  border: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: blueviolet;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
 #combo-banner{
     background-color: #F4F7FF;
     height: 250px;
@@ -244,18 +274,6 @@
     margin-left: -4px;
 }
 
-.quick a{
-    color: #fff;
-    float:  right;
-    font-size: 16px;
-    padding: 22px 0 0 48px;
-    text-decoration: none;
-}
-
 #boucher{
     padding: 22px 0 0 0;
-}
-
-.quick a:hover{
-    font-weight: bold;
 }
